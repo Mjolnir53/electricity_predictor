@@ -43,7 +43,7 @@ All analysis is performed in a single, well-documented Jupyter notebook:
   Handle missing values, convert data types, and prepare for analysis.
 
 ### - [Exploratory Data Analysis](notebooks/electricity_predictor.ipynb#Hourly-Patterns:-Peak-and-Off-Peak-Times):  
-The notebook performs a thorough EDA by visualizing electricity usage patterns at multiple granularities. It analyzes hourly, daily, and seasonal trends, identifying peak and off-peak hours, and comparing usage between summer and winter. The analysis includes line plots and bar charts to show average, maximum, and minimum usage by hour, as well as grouped statistics by season. These visualizations help uncover behavioral patterns and inform subsequent modeling steps.
+The notebook performs a thorough EDA by visualizing electricity usage patterns at multiple granularities. It analyzes hourly, daily, and seasonal trends, identifying peak and off-peak hours, and comparing usage between summer and winter. The analysis includes line plots and bar charts to show average, maximum, and minimum usage by hour, as well as grouped statistics by season. Visualizations reveal clear peak and off-peak hours, as well as differences between summer and winter usage. These insights highlight when and why electricity demand fluctuates.
 
 ### - [Feature Engineering](notebooks/electricity_predictor.ipynb#Hourly-by-Season):  
 Feature engineering steps include creating a 'Season' column to distinguish between winter and summer months, and extracting hour-based features from the timestamp data. The notebook also explores the impact of these features on usage patterns, preparing the data for predictive modeling by ensuring all relevant temporal and categorical information is captured.
