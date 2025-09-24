@@ -1,0 +1,4 @@
+# Ignore data folders and files
+.env
+/data/
+/data/holdout_data/
