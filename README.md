@@ -36,11 +36,10 @@ All analysis is performed in a single, well-documented Jupyter notebook:
 ---
 
 ## Thought Process & Analysis Flow
-
-- [Data Import & Setup](notebooks/electricity_predictor.ipynb#Import-Data):  
+### [Data Import & Setup](notebooks/electricity_predictor.ipynb#Import-Data):  
   Load and combine raw data, set up environment variables for configuration.
 
-- [Data Cleaning & Preparation](notebooks/electricity_predictor.ipynb#Data-Exploration):  
+### [Data Cleaning & Preparation](notebooks/electricity_predictor.ipynb#Data-Exploration):  
   Handle missing values, convert data types, and prepare for analysis.
 
 - [Exploratory Data Analysis](notebooks/electricity_predictor.ipynb#Hourly-Patterns:-Peak-and-Off-Peak-Times):  
